@@ -1,0 +1,16 @@
+    .button {
+        background-color: var(--bg-color, var(--deep-saffron));
+        color: var(--white);
+        font-size: var(--fs-5);
+        /* font-weight: var(--fw-500); */
+        box-shadow: var(--shadow-1);
+        border: none;
+        padding: 0.5em 1.5em;
+
+    }
+
+    .button:hover{
+        color: #000000;
+        background-color: var(--white);
+
+    }
